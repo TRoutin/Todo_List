@@ -13,6 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func nomTextField(_ sender: Any) {
+    }
+    
+    @IBAction func descriptionTextField(_ sender: Any) {
+    }
+    @IBAction func createTodo(_ sender: UIButton) {
+        let nom = nomTextField
+        let description = descriptionTextField
+        let task = ToDo(nom: nom, description: description)
+    }
 }
 
