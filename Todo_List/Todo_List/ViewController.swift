@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     @IBAction func descriptionTextField(_ sender: Any) {
     }
     @IBAction func createTodo(_ sender: UIButton) {
-        let nom = nomTextField
-        let description = descriptionTextField
-        let task = ToDo(nom: nom, description: description)
+        let nom:(Any) = nomTextField
+        let description:(Any) = descriptionTextField
+        //let task = ToDo(nom: nom, description: nom)
     }
 }
 
